@@ -1,0 +1,23 @@
+{
+  "name": "n8n-workflow-generator",
+  "version": "1.0.0",
+  "description": "Multi-agent system that transforms natural language into validated n8n workflows",
+  "main": "src/orchestrator/index.js",
+  "scripts": {
+    "start": "node src/cli.js",
+    "generate": "node src/cli.js",
+    "demo": "node examples/demo.js"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  },
+  "keywords": [
+    "n8n",
+    "workflow",
+    "automation",
+    "multi-agent",
+    "generator"
+  ],
+  "author": "",
+  "license": "MIT"
+}
